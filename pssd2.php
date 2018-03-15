@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 </head>
 <body>
 	<div class="loginBox">
-		<h2>change password Step2</h2>
+		<h2>Change Password Step 2</h2>
 		<form method="POST" action="pssd2.php">
         
             <p>username</p>
