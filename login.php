@@ -1,26 +1,33 @@
-﻿<?php	
-	$host="localhost";
-	$user="root";
-	$password="";
-	$db="users";
-
-	$con=mysqli_connect($host,$user,$password);
+<?php	
+	session_start();
+	$_SESSION['message']='';
+	$mysqli= new mysqli("localhost", "root", "", "users");
+if($_SERVER['REQUEST_METHOD']=='POST')	{
 
 	if(isset($_POST['username']))	{
 		$uname=$_POST['username'];
 		$pssd=$_POST['password'];
-		$sql="select * from userinfo where user='".$uname."' AND pass='".$pssd."' limit 1";
+		$result = $mysqli->query("SELECT * FROM userinfo WHERE user='$uname'");
 		
-		$result=mysqli_query($con,$sql);
-		if($result)	{
-			echo "success";
-			exit();
+		if ( $result->num_rows == 0 ){ 
+			$_SESSION['message'] = "User with that username doesn't exist!";
 		}
-		else{
-			echo "not found! wanna register?";
-			exit();
+		else { 
+			$userx = $result->fetch_assoc();
+			$pssd='';
+			$mysqli->query("SELECT pass FROM userinfo WHERE user='$uname' as $pssd2");
+			if ( strcmp($pssd,$pssd2)==0 ) {
+				
+				$_SESSION="SUCCESS";
+		
+				header("location: index.php");
+			}
+			else {
+				$_SESSION['message'] = "You have entered wrong password, try again!";
+			}
 		}
-	}
+}
+}
 
 
                                   
@@ -34,7 +41,8 @@
 </head>
 <body>
 	<div class="loginBox">
-		<img src="C:\Users\rishursx\Documents\bell-master\img\user.png" class="user">
+	
+		<img src="img\user.png" class="user">
 		<h2>Welcome to          
 Cluckin' bell</h2>
 		<form method="POST" action="#">
@@ -45,6 +53,7 @@ Cluckin' bell</h2>
 			<input type="submit" name="" value="Sign In">
 			<a href="register.php">New user? Register></a>
 		</form>
+		<div class="alert alert-error"><?= $_SESSION['message'] ?></div>
 	</div>
 </body>
 </html>
