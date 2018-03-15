@@ -6,7 +6,6 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 
 	if(isset($_POST['username']))	{
 		$uname=$_POST['username'];
-		$pssd=$_POST['password'];
 		$result = $mysqli->query("SELECT * FROM userinfo WHERE user='$uname'");
 		
 		if ( $result->num_rows == 0 ){ 
@@ -14,10 +13,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 		}
 		else { 
 			$userx = $result->fetch_assoc();
-			$pssd='';
-			$mysqli->query("SELECT pass FROM userinfo WHERE user='$uname' as $pssd2");
-			if ( strcmp($pssd,$pssd2)==0 ) {
-				
+			if ( strcmp($_POST['password'], $userx['pass'])==0  ) {
 				$_SESSION="SUCCESS";
 		
 				header("location: index11.php");
@@ -28,6 +24,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 		}
 }
 }
+
 
 
                                   
