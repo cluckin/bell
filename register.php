@@ -36,7 +36,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 			<p>Username</p>
 			<input type="text" name="username" placeholder="e.g. modiji@56inchpizza " required>
 			<p>Password</p>
-            <input type="password" name="password" placeholder="•••••••••••••••••"required>
+            <input type="password" name="password" placeholder="••••••••••••••••••"required>
             <p>email</p>
             <input type="email" name="email" placeholder="someone@mail"required>
             <p>phone</p>
