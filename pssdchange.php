@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 </head>
 <body>
 	<div class="loginBox">
-		<h2>change password Step2</h2>
+		<h2>change password Step1</h2>
 		<form method="POST" action="pssdchange.php">
             <p>email</p>
             <input type="email" name="email" placeholder="someone@mail"required>
