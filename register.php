@@ -4,11 +4,11 @@
 	$mysqli= new mysqli("localhost", "root", "", "users");
 if($_SERVER['REQUEST_METHOD']=='POST')	{
 	if(isset($_POST['username']))	{
-		$uname=$_POST['username'];
-		$pssd=$_POST['password'];
-		$em=$_POST['email'];
-		$ph=$_POST['phone'];
+		$uname=$mysqli->real_escape_string($_POST['username']);
+		$em=$mysqli->real_escape_string($_POST['email']);
+		$ph=$mysqli->real_escape_string($_POST['phone']);
 		$aadh=$_POST['Aadhar'];
+		$pssd=$_POST['password'];
 		$sql="INSERT INTO userinfo (user,pass,phone,email,Aadhar)"
 			."VALUES ('$uname','$pssd','$ph','$em','$aadh')";
 		if ($mysqli->query($sql) === true)	{
