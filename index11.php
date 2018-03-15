@@ -316,10 +316,10 @@
 								<tr>
 									<td align="center">
 										<!-- button -->
-										<table class="textbutton" align="center" border="0" cellpadding="0" cellspacing="0" >
+										<table class="textbutton" align="center" border="0" cellpadding="0" cellspacing="0">
 											<tr>
 												<td align="center" style="">
-													<a href="#" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#ffffff; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#F44336;">
+													<a href="#" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#F52507; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#efed40;">
 														Order Now
 													</a>
 												</td>
@@ -340,7 +340,7 @@
 	</table>
 	<!-- end header -->
 	<!-- about -->
-	<table width="100%" border="0" cellspacing="0" cellpadding="50" align="center" class="scale" data-module="Special One" >
+	<table width="100%" border="0" cellspacing="0" cellpadding="25" align="center" class="scale" data-module="Special One" >
 		<tr>
 			<td bgcolor="#FFFFFF" data-bgcolor="Body">
 				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="scale">
@@ -513,7 +513,7 @@
 			<td>
 				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
 					<tr>
-						<td style="background-color: #91c444;" data-bgcolor="Banner">
+						<td style="background-color: #F52507;" data-bgcolor="Banner">
 
 							<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="scale85">
 								<tr><td height="60">&nbsp;</td></tr>
@@ -535,7 +535,7 @@
 										<table class="textbutton" align="center" border="0" cellpadding="0" cellspacing="0">
 											<tbody><tr>
 												<td align="center" style="">
-													<a href="#" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#ffffff; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#F44336;">
+													<a href="#" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#F52507; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#efed40;">
 														Menu
 													</a>
 												</td>
@@ -666,7 +666,7 @@
 	</table>
 	<!-- //map -->
 	<!-- LINKS -->
-	<table bgcolor="#414a51" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Links">
+	<table bgcolor="#efed40" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Links">
 		<tr>
 			<td>
 				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="table-inner">
@@ -678,28 +678,28 @@
 									<td>
 										<table width="125" border="0" cellspacing="0" cellpadding="0" align="left" class="scale">
 											<tr>
-												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small">
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#F52507; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small">
 													careers
 												</td>
 											</tr>
 											<tr><td height="15">&nbsp;</td></tr>
 											<tr>
 												<td class="scale-center" >
-													<a href="#" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">Hoping for Placement</a>
+													<a href="#" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#F52507; text-decoration: none;">Hoping for Placement</a>
 												</td>
 											</tr>
 											<tr><td height="15"> </td></tr>
 										</table>
 										<table width="125" border="0" cellspacing="0" cellpadding="0" align="right" class="scale">
 											<tr>
-												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;">
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#F52507; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;">
 													support
 												</td>
 											</tr>
 											<tr><td height="15">&nbsp;</td></tr>
 											<tr>
 												<td class="scale-center">
-													<a href="#" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">You are free to provide Financial help</a>
+													<a href="#" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#F52507; text-decoration: none;">You are free to provide Financial help</a>
 												</td>
 											</tr>
 											<tr><td height="15"> </td></tr>
@@ -712,13 +712,13 @@
 									<td>
 										<table width="125" border="0" cellspacing="0" cellpadding="0" align="left" class="scale">
 											<tr>
-												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small" data-size="Paragraphs Small" data-min="12" data-max="20">
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#F52507; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small" data-size="Paragraphs Small" data-min="12" data-max="20">
 													Open Hours
 												</td>
 											</tr>
 											<tr><td height="15">&nbsp;</td></tr>
 											<tr>
-												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">
+												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#F52507; text-decoration: none;">
 													24 hours Free Delivery
 												</td>
 											</tr>
@@ -726,13 +726,13 @@
 										</table>
 										<table width="125" border="0" cellspacing="0" cellpadding="0" align="right" class="scale">
 											<tr>
-												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small" data-size="Paragraphs Small" data-min="12" data-max="20">
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#F52507; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small" data-size="Paragraphs Small" data-min="12" data-max="20">
 													address
 												</td>
 											</tr>
 											<tr><td height="15">&nbsp;</td></tr>
 											<tr>
-												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">
+												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#F52507; text-decoration: none;">
 													Cluckin' Bell Room-207, HBTU,Kanpur
 												</td>
 											</tr>
@@ -748,7 +748,7 @@
 		</tr>
 	</table>
 	<!-- SOCIAL MEDIA -->
-	<table bgcolor="#414a51" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Social Media">
+	<table bgcolor="#efed40" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Social Media">
 		<tr>
 			<td data-bgcolor="Body">
 				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="table-inner">
@@ -765,7 +765,7 @@
 			</td>
 		</tr>
 	</table>
-	<table bgcolor="#353d44" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Footer" data-thumb="http://www.stampready.net/dashboard/templates/pure/thumbnails/pure12.jpg">
+	<table bgcolor="#F52507" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Footer" data-thumb="http://www.stampready.net/dashboard/templates/pure/thumbnails/pure12.jpg">
 		<tr>
 			<td>
 				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="table-inner">
