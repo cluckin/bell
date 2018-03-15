@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')	{
 				
 				$_SESSION="SUCCESS";
 		
-				header("location: index.php");
+				header("location: index11.php");
 			}
 			else {
 				$_SESSION['message'] = "You have entered wrong password, try again!";
@@ -51,7 +51,8 @@ Cluckin' bell</h2>
 			<p>Password</p>
 			<input type="password" name="password" placeholder="••••••••••••••••••">
 			<input type="submit" name="" value="Sign In">
-			<a href="register.php">New user? Register></a>
+			<a href="register.php">New user?		</a>
+			<a href="pssdchange.php">Forgot password?</a>
 		</form>
 		<div class="alert alert-error"><?= $_SESSION['message'] ?></div>
 	</div>
